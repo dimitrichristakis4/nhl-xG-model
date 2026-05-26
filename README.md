@@ -47,4 +47,4 @@ Using a player's full-season stats to predict a shot from game 3 leaks future da
 
 ## Model
 
-XGBClassifier — 5,000 estimators, learning rate 0.01, early stopping after 50 rounds with no improvement on the test set. Categorical features one-hot encoded before fitting.
+XGBClassifier with 5,000 estimators, learning rate 0.01, early stopping after 50 rounds with no improvement on the test set. Categorical features one-hot encoded before fitting.
